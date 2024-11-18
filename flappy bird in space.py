@@ -8,7 +8,7 @@ pygame.init()
 # Set up the window
 width, height = 900, 500
 screen = pygame.display.set_mode((width, height))
-pygame.display.set_caption("Flappy Bird in Space -- Capsotne project - [ROLL:1931026] -  [Course:MTE 3107] ")
+pygame.display.set_caption("Flappy Bird in Space -- Capsotne project - [ROLL:1931026] -  [Course:Software Development] ")
 clock = pygame.time.Clock()
 font=pygame.font.Font('freesansbold.ttf',20)
 
