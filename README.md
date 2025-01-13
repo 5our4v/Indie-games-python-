@@ -119,11 +119,12 @@
 
 <section>
     <h2>Gameplay</h2>
+    ![Image Alt](https://github.com/s0ur4v26/Indie-games-python-/blob/main/Screenshot%202025-01-13%20211609.png?raw=true)
+    ![Image Alt](https://github.com/s0ur4v26/Indie-games-python-/blob/main/Screenshot%202025-01-13%20211627.png?raw=true)
     
 
 </section>
 
 </body>
 </html>
-![Screenshot 2025-01-13 211609](https://github.com/user-attachments/assets/65a66b4a-9485-4242-b0f4-b5ad1fbdf672)
-![Screenshot 2025-01-13 211627](https://github.com/user-attachments/assets/2d8b3bee-2153-4497-aef4-e5c067108334)
+
