@@ -1,1 +1,1 @@
-This is a simple game built on python using pygame libraray . It's cheap copy of flappy brid the theme is different. A retro space kind of theme is implemented here 
+This is a simple game built on python using pygame libraray . It's cheap copy of flappy brid the theme is different. A retro space kind of theme is implemented here . This was the project for MTE-3207 (Software Development using python )
