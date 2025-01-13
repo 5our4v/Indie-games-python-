@@ -124,5 +124,5 @@
 
 </body>
 </html>
-![Image alt](https://github.com/s0ur4v26/Indie-games-python-/blob/main/Screenshot%202025-01-13%20211609.png?raw=true)
+https://github.com/s0ur4v26/Indie-games-python-/blob/main/Screenshot%202025-01-13%20211609.png?raw=true
 
