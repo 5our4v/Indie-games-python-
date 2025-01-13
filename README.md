@@ -1,35 +1,170 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Flappy Bird in Space - Capstone Project</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flappy Bird in Space - README</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0 20px;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+        }
+        section {
+            margin: 20px auto;
+            max-width: 800px;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #444;
+        }
+        pre {
+            background: #f4f4f4;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+        code {
+            background: #f4f4f4;
+            padding: 2px 4px;
+            border-radius: 3px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Flappy Bird in Space - Capstone Project</h1>
 
-    <h2>Gameplay</h2>
+<header>
+    <h1>Flappy Bird in Space - README</h1>
+    <p><strong>Capstone Project</strong><br>ROLL: 1931026<br>Course: Software Development</p>
+</header>
 
-    <h3>In Progress</h3>
-    <img src="images/Screenshot1.png" alt="Gameplay in progress" style="width:50%;height:auto;">
+<section>
+    <h2>Overview</h2>
+    <p>This is a Python implementation of a simple Flappy Bird-inspired game set in space. The player controls a bird using the spacebar, navigating through obstacles while avoiding collisions. The game tracks the player's score and high score, with a starry background for added ambiance.</p>
+</section>
 
-    <h3>Game Over</h3>
-    <img src="images/Screenshot2.png" alt="Game Over Screen" style="width:50%;height:auto;">
-
-    <h2>How to Play</h2>
-    <ul>
-        <li>Press the spacebar to make the bird fly.</li>
-        <li>Navigate through the gaps in the obstacles.</li>
-        <li>Avoid hitting the obstacles or the ground.</li>
-    </ul>
-
+<section>
     <h2>Features</h2>
     <ul>
-        <li>Space-themed design with dynamic gameplay.</li>
-        <li>Score tracking and high score recording.</li>
-        <li>Restart functionality upon game over.</li>
+        <li><strong>Bird with Jetpack Animation:</strong> A red bird with a jetpack effect when it jumps.</li>
+        <li><strong>Random Obstacles:</strong> Continuous generation of top and bottom obstacles with random gaps.</li>
+        <li><strong>Starry Background:</strong> Dynamic stars simulate a space environment.</li>
+        <li><strong>Score Tracking:</strong> Displays the current score and high score.</li>
+        <li><strong>Restart Option:</strong> Restart the game with the spacebar upon game over.</li>
     </ul>
+</section>
 
-    <h2>Credits</h2>
-    <p>Developed as part of the <strong>Course: Software Development</strong>.</p>
-    <p>Roll: 1931026</p>
+<section>
+    <h2>Requirements</h2>
+    <ul>
+        <li>Python 3.6 or later</li>
+        <li><a href="https://www.pygame.org/">Pygame</a> library</li>
+    </ul>
+    <p>Install the Pygame library using pip:</p>
+    <pre><code>pip install pygame</code></pre>
+</section>
+
+<section>
+    <h2>How to Play</h2>
+    <ol>
+        <li>Run the game by executing the Python script:
+            <pre><code>python flappy_bird.py</code></pre>
+        </li>
+        <li>Control the bird:
+            <ul>
+                <li>Press the <strong>spacebar</strong> to make the bird jump.</li>
+            </ul>
+        </li>
+        <li>Navigate through the obstacles:
+            <ul>
+                <li>Avoid colliding with the top or bottom obstacles.</li>
+            </ul>
+        </li>
+        <li>Game Over:
+            <ul>
+                <li>If you collide with an obstacle, the game ends.</li>
+                <li>Press the <strong>spacebar</strong> to restart the game.</li>
+            </ul>
+        </li>
+    </ol>
+</section>
+
+<section>
+    <h2>File Descriptions</h2>
+    <h3>Main Script</h3>
+    <p>The main game script includes:</p>
+    <ul>
+        <li><strong>Classes:</strong>
+            <ul>
+                <li><code>colors</code>: Defines commonly used colors.</li>
+            </ul>
+        </li>
+        <li><strong>Functions:</strong>
+            <ul>
+                <li><code>draw_bird</code>: Draws the bird with its components.</li>
+                <li><code>draw_obstacles</code>: Draws the obstacles with caps.</li>
+                <li><code>check_collision</code>: Checks for collision between the bird and obstacles.</li>
+                <li><code>draw_star</code>: Draws and updates the starry background.</li>
+            </ul>
+        </li>
+        <li><strong>Game Logic:</strong>
+            <ul>
+                <li>Bird physics and gravity.</li>
+                <li>Obstacle movement and score tracking.</li>
+                <li>Collision detection and game restart mechanics.</li>
+            </ul>
+        </li>
+    </ul>
+</section>
+
+<section>
+    <h2>Controls</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Key</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Spacebar</strong></td>
+                <td>Makes the bird jump or restarts the game after a Game Over.</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<section>
+    <h2>Future Enhancements</h2>
+    <ul>
+        <li>Add sound effects for jumping and collisions.</li>
+        <li>Include multiple difficulty levels with varying speeds.</li>
+        <li>Introduce power-ups for the bird.</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Acknowledgments</h2>
+    <p>- Developed as part of the Software Development course.<br>
+    - Inspired by the classic <strong>Flappy Bird</strong> game.</p>
+</section>
+
 </body>
 </html>
