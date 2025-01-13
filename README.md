@@ -117,5 +117,12 @@
     - Inspired by the classic <strong>Flappy Bird</strong> game.</p>
 </section>
 
+<section>
+    <h2>Gameplay</h2>
+    ![Screenshot 2025-01-13 211609](https://github.com/user-attachments/assets/65a66b4a-9485-4242-b0f4-b5ad1fbdf672)
+    ![Screenshot 2025-01-13 211627](https://github.com/user-attachments/assets/2d8b3bee-2153-4497-aef4-e5c067108334)
+
+</section>
+
 </body>
 </html>
